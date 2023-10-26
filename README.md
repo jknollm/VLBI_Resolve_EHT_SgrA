@@ -15,7 +15,7 @@ https://doi.org/10.25739/m140-ct59
 
 ### Requirements 
 
-\```python
+```python
 pip install git+https://gitlab.mpcdf.mpg.de/ift/resolve.git
 
 pip install ehtim
@@ -23,14 +23,14 @@ pip install ehtim
 pip install mpi4py
 
 pip install git+https://github.com/liamedeiros/ehtplot.git
-\```
+```
 
 ### Run Code
 In order to run the reconstruction use the following command. Please adapt N according to the number of available processes. Note that N>32 does not improve performance and we recommend N to be a power of 2 in order to ensure balanced loads.
 
-\```python
+```python
 mpirun -np N python reconstruction.py cfg/EHT_SgrA_dynamic_April_6th_2017.cfg
-\```
+```
 
 
 
